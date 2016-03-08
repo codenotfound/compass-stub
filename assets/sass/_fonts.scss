@@ -1,0 +1,15 @@
+//fonts
+
+/* Source Sans Pro */
+@include font-face("Source Sans Pro",
+    font-files("source-sans-pro/SourceSansPro-Regular.otf.woff2", 
+    "source-sans-pro/SourceSansPro-Regular.otf.woff", 
+    "source-sans-pro/SourceSansPro-Regular.eot"));
+
+/* Open Sans */
+@include font-face("Open Sans",
+    font-files("open-sans/OpenSans-LightItalic.woff2",
+    "open-sans/OpenSans-LightItalic.woff",
+    "open-sans/OpenSans-LightItalic.eot"),  
+     $weight: 300, 
+     $style: italic);
